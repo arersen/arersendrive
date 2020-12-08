@@ -2,10 +2,9 @@
 Загрузчик данных на сервер arersengit.7m.pl/files, c FTP инструментами и прочее
 
 ## Установка
-### apt update && apt upgrade
-### apt install python
-### python3 -m pip install requests
-### python main.py
+#### apt install python
+#### python3 -m pip install requests
+#### python main.py
 <a name="headers"/>
 ## Команды:
 <li><b>add</b> - Добавить файл на сервер</li>
