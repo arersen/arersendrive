@@ -1,4 +1,5 @@
 import requests # python3 -m pip install requests
+import base64
 def add():
 	name = input("username: ")
 	file = input("filename: ")
@@ -36,6 +37,28 @@ def ls():
 	print("\n")
 	print("Directory content:" + name + "/" + dir)
 	print(data.text)
+class acc:
+	def base64str():
+		
+
+		#read = open('encode.txt' ,'w')
+		#read.write(encoded)
+
+		name = input("username: ")
+		file_pr = input("filename: ")
+		data_1 = input("BASE64 String: ")
+		
+		
+		
+			#typeb64 = base64.encode(bytes(type,'utf-8'))
+			#http://arersengit.7m.pl/edit.php?username=arersen&file=lox.py&data=YXJlcnNlbmdpdC43bS5wbC8vYWRkLnBocD91c2VybmFtZT10ZXN0JmZpbGU9bmV3LnR4dA==
+		http = "http://arersengit.7m.pl/edit.php?username=" + name + "&file=" + file_pr + "&data=" + data_1
+		date = requests.get(http)
+		print(date.text)
+	def b64stxt():
+		return 0
+
+
 
 
 
