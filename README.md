@@ -13,4 +13,4 @@
 <li><b>ls</b> либо <b>list</b> либо <b>dir</b> - Показать содержимое директории</li>
 
 ## functions.py
-Модуль с http запросами создан для модификации своей консоли. Лучше используйте main.py, там уже все настроено.</br>Подробнее про http-запросы по этой ссылке: https://github.com/kotleni/kotleni.github.io/blob/master/projects/php/files_man/server/
+Модуль с http запросами создан мной для модификации своей консоли. Лучше используйте main.py, там уже все настроено.</br>Подробнее про http-запросы по этой ссылке: https://github.com/kotleni/kotleni.github.io/blob/master/projects/php/files_man/server/
