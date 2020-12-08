@@ -3,10 +3,6 @@
 
 ## Установка
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
 <a name="headers"/>
 ## Команды:
 <li><b>add</b> - Добавить файл на сервер</li>
