@@ -5,7 +5,7 @@
 #### apt install python
 #### python3 -m pip install requests
 #### python main.py
-<a name="headers"/>
+
 ## Команды:
 <li><b>add</b> - Добавить файл на сервер</li>
 <li><b>get</b> - Получить файл с сервера</li>
