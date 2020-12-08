@@ -2,7 +2,7 @@
 Загрузчик данных на сервер arersengit.7m.pl/files, c FTP инструментами и прочее
 
 ## Команды:
-<li>add</li>
-<li>get</li>
-<li>mkdir</li>
-<li>ls</li>
+<li><b>add</b></li>
+<li><b>get</b></li>
+<li><b>mkdir</b></li>
+<li><b>ls</b></li>
