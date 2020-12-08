@@ -9,10 +9,12 @@ def add():
 	slash = "/"
 	print("Your link: http://arersengit.7m.pl/files/" + name + slash + file)
 def get():
-	
+	name = input("username: ")
+	file = input("filename: ")
+	http = "http://arersengit.7m.pl/get.php?username=" + name  + "&file=" + file
 	data = requests.get(http)
 	print(data.text)
-	#ща
+	#get.php?username=test&file=new.txt
 	
 def mkdir():
 	name = input("username: ")
