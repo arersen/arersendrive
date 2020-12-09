@@ -61,7 +61,7 @@ class delete:
 		file = input("filename: ")
 		http = "http://arersengit.7m.pl/del.php?username=" + name + "&file=" + file
 		data = requests.get(http)
-		print (data)
+		print (data.text)
 		print('File succefuly removed!')
 
 
