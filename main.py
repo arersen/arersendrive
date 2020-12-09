@@ -15,5 +15,8 @@ while True:
 		func.ls()
 	if typee == "dir":
 		func.ls()
+
 	if typee == "put":
 		func.acc.base64str()
+	if typee == 'del':
+		func.delete.rm()
